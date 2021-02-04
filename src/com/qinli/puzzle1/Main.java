@@ -10,13 +10,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        students[1].name = "法外狂徒张三";
-        students[1].age = 20;
-        students[2].name = "李四";
-        students[2].age = 21;
-        students[3].name = "王五";
-        students[3].age = 19;
+        students[0] = new Student("法外狂徒张三",20);
+        students[1] = new Student("李四",21);
+        students[2] = new Student("王五",19);
 
+        printStu();
         return;
     }
 
